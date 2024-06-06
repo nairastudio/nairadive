@@ -1,3 +1,9 @@
 document.addEventListener("DOMContentLoaded", function() {
-    // Add your JavaScript here for any additional functionality
+    const form = document.querySelector('form');
+    form.addEventListener('submit', function(event) {
+        event.preventDefault();
+        alert('Thank you for your booking! We will contact you soon.');
+        form.reset();
+    });
 });
+
