@@ -1,1 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the latest news, tips, and stories from Naira Dive.">
+    <title>Blog - Naira Dive</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/animations.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="tour-grid.html">Tours</a></li>
+                <li><a href="dive-packages-list.html">Dive Packages</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="blog">
+        <h1>Our Blog</h1>
+        <div class="blog-posts">
+            <!-- Repeat this block for each blog post -->
+            <div class="blog-post">
+                <img src="../images/blog1.jpg" alt="Blog Post Image">
+                <div class="blog-info">
+                    <h2>Blog Post Title</h2>
+                    <p>Brief summary of the blog post. This gives a quick overview of the content to entice readers to click and read more.</p>
+                    <a href="blog-details.html" class="btn">Read More</a>
+                </div>
+            </div>
+            <!-- End of blog post block -->
+        </div>
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Naira Dive. All Rights Reserved.</p>
+    </footer>
+    
+    <script src="../js/scripts.js"></script>
+</body>
+</html>
 
